@@ -1,5 +1,13 @@
+"""
+Math Equation Game
+Author: [Shujat Khalid]
+Python Version: 3.12.7
+GitHub: https://github.com/syed87/University/blob/main/TaskOne.py
+"""
+
 import random
-# Python version 3.12.7
+import random
+
 def generate_equation():
     """Generate a random equation and return coefficient, result, and answer."""
     coefficient = random.randint(1, 10)
